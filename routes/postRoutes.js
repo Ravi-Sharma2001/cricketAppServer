@@ -13,7 +13,7 @@ router.route("/invest").post(postController.invest)
 router.route("/userLog").post(postController.userLog)
 router.route("/result").post(postController.result)
 router.route("/leaderboard").get(postController.leaderboard)
-router.route("/bug").get(postController.leaderboard)
+router.route("/traffic").get(postController.leaderboard)
 // router.route("/login").post(postController.login);
 // router.route("/user").get(postController.getUser);
 // router.post("/reset",checkToken,postController.reset);
